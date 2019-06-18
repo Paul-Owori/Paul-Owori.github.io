@@ -1,0 +1,148 @@
+body {
+  background: url(../img/Background.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Prompt", sans-serif;
+  /*
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  font-family: Arial, Helvetica, sans-serif
+  font-family: 'Times New Roman', Times, serif
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  font-family: 'Courier New', Courier, monospace
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif*/
+}
+
+.navigation {
+  border: 5px solid #dcdcdc;
+  display: flex;
+  justify-content: space-between;
+}
+#projects {
+  display: flex;
+}
+#projects > .ref > .project-tile {
+  border: 10px solid #dcdcdc;
+}
+.profile-link {
+  border: 5px solid #dcdcdc;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-link > img {
+  width: 200px;
+  height: 200px;
+}
+
+.greyME {
+  color: gray;
+}
+
+.greyME2 {
+  color: gray;
+}
+
+.greyME:hover {
+  color: rgb(72, 72, 72);
+}
+
+.colorME {
+  color: whitesmoke;
+}
+
+.intro {
+  background: rgb(216, 216, 216);
+  box-shadow: 5px 8px 6px;
+  padding: 15px;
+}
+
+.introTop {
+  display: flex;
+}
+
+.aboutME {
+  padding: 10px;
+  background: whitesmoke;
+}
+
+.allContainer {
+  margin-top: 80px;
+  border-radius: 15px;
+  padding: 15px;
+  padding-left: 12% !important;
+}
+
+.borderNav {
+  border: 5px;
+  border-color: black;
+}
+
+.profilePic {
+  border-radius: 50%;
+}
+
+.iconNavDiv {
+  font-size: 30px;
+}
+
+.iconBorder {
+  color: #605f5f;
+  width: auto;
+  height: 150%;
+  filter: drop-shadow(5px 5px 5px rgb(89, 89, 89));
+}
+.iconBorder:hover {
+  cursor: pointer;
+  filter: drop-shadow(2px 3px 5px rgb(89, 89, 89));
+}
+
+.noDecoration:hover {
+  text-decoration: none;
+}
+
+.introNav {
+  display: flex;
+  align-items: center;
+}
+
+.contactME {
+  color: #605f5f;
+}
+
+hr {
+  height: 1px;
+  color: #605f5f;
+  background-color: #605f5f;
+  border: none;
+}
+
+.loadingContainer {
+  background: #c1c1c1;
+}
+
+.loader {
+  background: rgb(57, 116, 57);
+}
+
+.skillContainer {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.flexInfo {
+  margin-left: 100% !important;
+  align-self: flex-end !important;
+}
+.flexInfo:hover {
+  cursor: pointer;
+}
+
+.flexLabel {
+  align-self: flex-start;
+}
