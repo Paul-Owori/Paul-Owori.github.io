@@ -22,19 +22,22 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
 #projects {
     display: flex;
 }
-#projects > .ref > .project-tile {
+
+#projects>.ref>.project-tile {
     border: 10px solid #dcdcdc;
 }
+
 .profile-link {
     border: 5px solid #dcdcdc;
     display: flex;
     justify-content: space-between;
 }
 
-.profile-link > img {
+.profile-link>img {
     width: 200px;
     height: 200px;
 }
@@ -96,6 +99,7 @@ body {
     height: 150%;
     filter: drop-shadow(5px 5px 5px rgb(89, 89, 89));
 }
+
 .iconBorder:hover {
     cursor: pointer;
     filter: drop-shadow(2px 3px 5px rgb(89, 89, 89));
@@ -139,6 +143,7 @@ hr {
     margin-left: 100% !important;
     align-self: flex-end !important;
 }
+
 .flexInfo:hover {
     cursor: pointer;
 }
@@ -151,7 +156,7 @@ hr {
     width: 100%;
     height: auto;
     box-shadow: 2px 5px 6px rgb(89, 89, 89);
-    margin: 15px !important;
+    margin: 2.5rem 0rem 1.8rem 0rem;
 }
 
 .projectImage:hover {
@@ -197,7 +202,8 @@ hr {
 .toolTip .toolTipText::after {
     content: " ";
     position: absolute;
-    bottom: 100%; /* At the top of the tooltip */
+    bottom: 100%;
+    /* At the top of the tooltip */
     left: 50%;
     margin-left: -5px;
     border-width: 5px;
