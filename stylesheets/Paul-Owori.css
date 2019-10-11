@@ -1,0 +1,212 @@
+body {
+    background: url(../assets/Background.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: "Prompt", sans-serif;
+    /*
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  font-family: Arial, Helvetica, sans-serif
+  font-family: 'Times New Roman', Times, serif
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  font-family: 'Courier New', Courier, monospace
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif*/
+}
+
+.navigation {
+    border: 5px solid #dcdcdc;
+    display: flex;
+    justify-content: space-between;
+}
+
+#projects {
+    display: flex;
+}
+
+#projects>.ref>.project-tile {
+    border: 10px solid #dcdcdc;
+}
+
+.profile-link {
+    border: 5px solid #dcdcdc;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-link>img {
+    width: 200px;
+    height: 200px;
+}
+
+.greyME {
+    color: gray;
+}
+
+.greyME2 {
+    color: gray;
+}
+
+.greyME:hover {
+    color: rgb(72, 72, 72);
+}
+
+.colorME {
+    color: whitesmoke;
+}
+
+.intro {
+    background: rgb(216, 216, 216);
+    box-shadow: 5px 8px 6px;
+    padding: 15px;
+}
+
+.introTop {
+    display: flex;
+}
+
+.aboutME {
+    padding: 10px;
+    background: rgb(255, 255, 255);
+}
+
+.allContainer {
+    margin-top: 80px;
+    border-radius: 15px;
+    padding: 15px;
+    padding-left: 12% !important;
+}
+
+.borderNav {
+    border: 5px;
+    border-color: black;
+}
+
+.profilePic {
+    border-radius: 50%;
+}
+
+.iconNavDiv {
+    font-size: 30px;
+}
+
+.iconBorder {
+    color: #605f5f;
+    width: auto;
+    height: 150%;
+    filter: drop-shadow(5px 5px 5px rgb(89, 89, 89));
+}
+
+.iconBorder:hover {
+    cursor: pointer;
+    filter: drop-shadow(2px 3px 5px rgb(89, 89, 89));
+}
+
+.noDecoration:hover {
+    text-decoration: none;
+}
+
+.introNav {
+    display: flex;
+    align-items: center;
+}
+
+.contactME {
+    color: #605f5f;
+}
+
+hr {
+    height: 1px;
+    color: #605f5f;
+    background-color: #605f5f;
+    border: none;
+}
+
+.loadingContainer {
+    background: #c1c1c1;
+}
+
+.loader {
+    background: rgb(57, 116, 57);
+}
+
+.skillContainer {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.flexInfo {
+    margin-left: 100% !important;
+    align-self: flex-end !important;
+}
+
+.flexInfo:hover {
+    cursor: pointer;
+}
+
+.flexLabel {
+    align-self: flex-start;
+}
+
+.projectImage {
+    width: 100%;
+    height: auto;
+    box-shadow: 2px 5px 6px rgb(89, 89, 89);
+    margin: 2.5rem 0rem 1.8rem 0rem;
+}
+
+.projectImage:hover {
+    cursor: pointer;
+    box-shadow: 2px 5px 6px rgb(0, 0, 0);
+}
+
+.projectImageLink {
+    text-decoration: none;
+}
+
+.projectImageLink:hover {
+    text-decoration: none;
+}
+
+.toolTip {
+    position: relative;
+    display: inline-block;
+
+    /*border-bottom: 1px dotted black;  If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.toolTip .toolTipText {
+    visibility: hidden;
+    width: 300px;
+    background-color: rgb(104, 103, 103);
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.toolTip:hover .toolTipText {
+    visibility: visible;
+}
+
+.toolTip .toolTipText::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;
+    /* At the top of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent rgb(104, 103, 103) transparent;
+}
