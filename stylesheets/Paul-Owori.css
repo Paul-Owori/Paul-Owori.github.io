@@ -215,6 +215,14 @@ hr {
 
 /* Values that will change on smaller screens */
 @media screen and (max-width: 980px) {
+
+    *{
+        font-size:1.08em
+    }
+
+    .text-right{
+        font-size: 0.8em !important;
+    }
     
 
     #icon{
