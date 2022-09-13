@@ -1,0 +1,27 @@
+.imgContainer {
+  border-radius: 50%;
+  background: #452736;
+  box-shadow: 6px 6px 12px #1c1016, -6px -6px 12px #6e3e56;
+  width: 220px;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  border-radius: 50%;
+  background: #452736;
+  box-shadow: inset 6px 6px 12px #1c1016, inset -6px -6px 12px #6e3e56;
+  width: 260px;
+  height: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+}
