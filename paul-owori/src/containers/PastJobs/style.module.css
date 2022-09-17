@@ -1,0 +1,37 @@
+.job {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* margin-bottom: 20px; */
+  padding: 10px;
+}
+
+.jobLogo {
+  height: 50px;
+  width: 200px;
+  object-fit: contain;
+  object-position: left top;
+}
+
+.jobLogoRow {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.jobLogoRow p {
+  margin: 0px;
+  font-size: 0.8em;
+}
+
+.timeFrame p {
+  font-size: 0.6em;
+  margin: 0px;
+  font-style: italic;
+}
+
+.jobDesc li {
+  font-size: 0.6em;
+  margin: 0px;
+  text-align: left;
+}

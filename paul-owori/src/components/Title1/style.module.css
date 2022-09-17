@@ -1,10 +1,14 @@
+.allContainer {
+}
 .container {
   border-radius: 26px;
   background: #452736;
   box-shadow: inset 6px 6px 12px #1c1016, inset -6px -6px 12px #6e3e56;
-  padding: 10px;
+  padding: 10px 25px;
   margin: 15px;
-  color: #d4d6db;
+  color: #ddb6c3;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .title {
@@ -15,4 +19,37 @@
   color: #292c34;
   /* padding: 15px; */
   margin: 0px;
+}
+
+.logoRow {
+  display: flex;
+  align-items: center;
+  padding: 10px 25px;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 30px;
+  cursor: pointer;
+  /* margin-right: 8px; */
+}
+
+.iconBtn {
+  border-radius: 50%;
+  background: #452636;
+  box-shadow: 1.3px 1.3px 1.3px #1c0f16, -1.3px -1.3px 1.3px #6e3d56;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  /* margin-right: 10px; */
+}
+
+.iconBtn a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
 }
