@@ -1,0 +1,39 @@
+.container {
+  border-radius: 22px;
+  background: #292c34;
+  box-shadow: inset 1.3px 1.3px 1.3px #101215, inset -1.3px -1.3px 1.3px #424653;
+}
+
+.raisedContainer {
+  border-radius: 22px;
+  background: #292c34;
+  box-shadow: 1.3px 1.3px 1.3px #101215, -1.3px -1.3px 1.3px #424653;
+}
+
+.raisedRedContainer {
+  border-radius: 22px;
+  background: #452536;
+  box-shadow: 1.3px 1.3px 1.3px #1c0f16, -1.3px -1.3px 1.3px #6e3b56;
+}
+
+.redContainer {
+  border-radius: 22px;
+  background: #452536;
+  box-shadow: inset 1.3px 1.3px 1.3px #1c0f16, inset -1.3px -1.3px 1.3px #6e3b56;
+}
+
+.container,
+.redContainer,
+.raisedContainer,
+.raisedRedContainer {
+  padding: 5px 10px;
+}
+
+.container p,
+.redContainer p,
+.raisedContainer p,
+.raisedRedContainer p {
+  margin: 0px;
+  font-size: 0.4em;
+  color: #ddb5c3;
+}

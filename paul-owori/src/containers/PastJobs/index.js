@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import styles from './style.module.css';
 import SectionCard from './../../components/SectionCard';
+import Tag from '../../components/Tag';
 
 const jobs = [
   {
+    isRemote: false,
     employer: 'Buri Africa Ltd',
     timeframe: 'NOV 2019 - MAY 2022',
     desc: [
@@ -14,6 +16,7 @@ const jobs = [
     ],
   },
   {
+    isRemote: false,
     employer: 'Outbox (U) Ltd.',
     timeframe: 'NOV 2019 - MAY 2022',
     desc: [
@@ -24,6 +27,7 @@ const jobs = [
     ],
   },
   {
+    isRemote: false,
     employer: 'Shockdrift Technologies',
     timeframe: 'AUGUST 2019 - MAY 2020',
     desc: [
@@ -32,6 +36,7 @@ const jobs = [
     ],
   },
   {
+    isRemote: true,
     employer: 'Skuad PTE Ltd.',
     timeframe: 'SEPT 2021 - PRESENT',
     desc: [
@@ -48,6 +53,8 @@ const PastJobs = () => {
       <SectionCard
         title="My Work History"
         desc="I've been a software developer for 4 years now and I've worked both remotely and on-site with some very brilliant teams."
+        checkoutClosedText="Check out my Work History"
+        checkoutOpenText="Close Work History"
       >
         {jobs.map((job) => {
           return (
@@ -55,6 +62,12 @@ const PastJobs = () => {
               <div className={styles.jobLogoRow}>
                 {/* <img src={job.logo} className={styles.jobLogo} /> */}
                 <p>{job.employer}</p>
+                <Tag
+                  text={job.isRemote ? 'Remote' : 'On-site'}
+                  // isRed
+                  isLarge
+                  style={{ marginLeft: '10px' }}
+                />
               </div>
               <div className={styles.timeFrame}>
                 <p>{job.timeframe}</p>

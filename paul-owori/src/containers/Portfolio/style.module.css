@@ -1,0 +1,109 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.project {
+  color: #ddb5c3;
+  text-align: left;
+  margin-bottom: 100px !important;
+
+  /* font-size: 0.7em; */
+}
+
+.project p {
+  margin: 0px;
+}
+
+.name {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.employer {
+  margin-bottom: 10px !important;
+  font-size: 0.7em;
+  font-style: italic;
+}
+
+.desc {
+  font-size: 0.6em;
+  white-space: pre-wrap;
+  border-radius: 10px;
+  background: #452536;
+  padding: 20px 15px;
+  box-shadow: inset 5px 5px 10px #1c0f16, inset -5px -5px 10px #6e3b56;
+}
+
+.linkContainer {
+  margin-top: 10px !important;
+  font-size: 0.6em;
+  white-space: pre-wrap;
+  display: flex;
+}
+
+.linkContainer a {
+  text-decoration: none;
+  color: #ddb5c3;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.skill {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+.tagsRow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+/* 
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.job {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  padding: 10px;
+}
+
+.jobLogo {
+  height: 50px;
+  width: 200px;
+  object-fit: contain;
+  object-position: left top;
+}
+
+.jobLogoRow {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.jobLogoRow p {
+  margin: 0px;
+  font-size: 0.8em;
+}
+
+.timeFrame p {
+  font-size: 0.6em;
+  margin: 0px;
+  font-style: italic;
+}
+
+.jobDesc li {
+  font-size: 0.6em;
+  margin: 0px;
+  text-align: left;
+}
+ */

@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.4c15762c.css",
-    "main.js": "/static/js/main.ba3d5048.js",
+    "main.css": "/static/css/main.392ef10c.css",
+    "main.js": "/static/js/main.e54ec54d.js",
     "static/js/787.2ebb61db.chunk.js": "/static/js/787.2ebb61db.chunk.js",
+    "static/media/Paul_Owori_CV.pdf": "/static/media/Paul_Owori_CV.01194d71240502a6ec1f.pdf",
     "static/media/open_sans_italic.ttf": "/static/media/open_sans_italic.f72efa639bb45d29e62f.ttf",
     "static/media/open_sans_variable.ttf": "/static/media/open_sans_variable.ceb05254cedfa895b512.ttf",
     "static/media/square_profile.jpg": "/static/media/square_profile.b0bead683371ab27e58c.jpg",
@@ -17,6 +18,7 @@
     "static/media/node-js.svg": "/static/media/node-js.f8e6211edaaec11e14c0db108a257cd4.svg",
     "static/media/redux.svg": "/static/media/redux.42f385158a306c04975dd44fddb247db.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.4b7752955098155b8dffe8926df9f317.svg",
+    "static/media/d3.svg": "/static/media/d3.7eac0a12fc0cf6722cf4df5b93177836.svg",
     "static/media/photoshop.svg": "/static/media/photoshop.2ae54e0a93b1fe44f804e5bf1337f5d7.svg",
     "static/media/react.svg": "/static/media/react.9235e8f8e2b73d394801330aba87511f.svg",
     "static/media/mongodb.svg": "/static/media/mongodb.ec5b2fbd7dbe9cce6b93be1b3ad2ea6c.svg",
@@ -30,12 +32,12 @@
     "static/media/css3.svg": "/static/media/css3.db7dfd1247623e1e9223d8ef28a37432.svg",
     "static/media/html-5.svg": "/static/media/html-5.a026abbb678246d70ee9b70e4aee972c.svg",
     "static/media/vue-js.svg": "/static/media/vue-js.6d7684efd638278d1af0d12e903b4e18.svg",
-    "main.4c15762c.css.map": "/static/css/main.4c15762c.css.map",
-    "main.ba3d5048.js.map": "/static/js/main.ba3d5048.js.map",
+    "main.392ef10c.css.map": "/static/css/main.392ef10c.css.map",
+    "main.e54ec54d.js.map": "/static/js/main.e54ec54d.js.map",
     "787.2ebb61db.chunk.js.map": "/static/js/787.2ebb61db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c15762c.css",
-    "static/js/main.ba3d5048.js"
+    "static/css/main.392ef10c.css",
+    "static/js/main.e54ec54d.js"
   ]
 }

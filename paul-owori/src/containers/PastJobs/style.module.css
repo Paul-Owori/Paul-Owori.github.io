@@ -1,9 +1,15 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
 .job {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   /* margin-bottom: 20px; */
   padding: 10px;
+  color: #ddb5c3;
 }
 
 .jobLogo {
@@ -15,7 +21,7 @@
 
 .jobLogoRow {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   align-items: flex-start;
 }
 
@@ -28,6 +34,16 @@
   font-size: 0.6em;
   margin: 0px;
   font-style: italic;
+}
+
+.jobDesc {
+  border-radius: 10px;
+  background: #452536;
+  padding-right: 15px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  /* padding-left: 15px; */
+  box-shadow: inset 5px 5px 10px #1c0f16, inset -5px -5px 10px #6e3b56;
 }
 
 .jobDesc li {

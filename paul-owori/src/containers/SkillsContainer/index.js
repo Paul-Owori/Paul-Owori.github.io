@@ -20,6 +20,7 @@ import reactLogo from '../../assets/logos/skills/react.svg';
 import graphqlLogo from '../../assets/logos/skills/graphql.svg';
 import vueLogo from '../../assets/logos/skills/vue-js.svg';
 import html5Logo from '../../assets/logos/skills/html-5.svg';
+import d3jsLogo from '../../assets/logos/skills/d3.svg';
 
 const skills = [
   { name: 'HTML 5', icon: html5Logo },
@@ -40,6 +41,7 @@ const skills = [
   { name: 'Google Cloud', icon: googleLogo },
   { name: 'Next.js', icon: nextLogo },
   { name: 'React.js', icon: reactLogo },
+  { name: 'D3.js', icon: d3jsLogo },
 ];
 
 const SkillsContainer = () => {
@@ -48,6 +50,8 @@ const SkillsContainer = () => {
       <SectionCard
         title="My Skills"
         desc="I frequently explore different technologies and ideas that intrigue me in my freetime and I'm always open to learning more. The skills I gain from this exploration always come in handy in my professional work."
+        checkoutClosedText="Check out my skills"
+        checkoutOpenText="Close Skills"
       >
         <div className={styles.skillRow}>
           {skills.map((skill) => {

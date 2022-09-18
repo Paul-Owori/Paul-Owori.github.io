@@ -1,0 +1,18 @@
+.container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 18vh;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textContainer {
+  font-size: 6vh;
+  cursor: pointer;
+}
+
+.container a {
+  text-decoration: none;
+  color: #ddb5c3;
+}

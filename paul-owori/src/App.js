@@ -5,6 +5,7 @@ import ProfileSection from './containers/ProfileSection';
 import SkillsContainer from './containers/SkillsContainer';
 import PastJobs from './containers/PastJobs';
 import Portfolio from './containers/Portfolio';
+import ResumeDownloader from './containers/ResumeDownloader';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <SkillsContainer />
       <PastJobs />
       <Portfolio />
+      <ResumeDownloader />
     </div>
   );
 }

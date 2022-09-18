@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styles from './style.module.css';
+import Tag from '../../components/Tag';
 import github from '../../assets/logos/2_github.svg';
 import linkedin from '../../assets/logos/linkedin.svg';
 import whatsapp from '../../assets/logos/whatsapp.svg';
@@ -34,12 +35,27 @@ const Title1 = ({ text }) => {
       logo: whatsapp,
     },
   ];
+
+  const roles = ['Frontend', 'Backend', 'Web', 'App', 'Fullstack'];
   return (
     <div className={styles.allContainer}>
       <div className={styles.container}>
         <p>{text}</p>
-        <p>Senior Fullstack Developer</p>
+        <p>Consultant Software Engineer</p>
+        <div className={styles.logoRow} style={{ paddingLeft: '0px' }}>
+          {roles.map((role) => (
+            <Tag
+              text={role}
+              style={{
+                fontSize: '4vh',
+                marginBottom: '5px',
+                marginRight: '5px',
+              }}
+            />
+          ))}
+        </div>
       </div>
+
       <div className={styles.logoRow}>
         {logos.map((item) => (
           <LogoBtn link={item.link} logo={item.logo} key={item.link} />
