@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.392ef10c.css",
-    "main.js": "/static/js/main.e54ec54d.js",
+    "main.css": "/static/css/main.e314c795.css",
+    "main.js": "/static/js/main.f5e276ee.js",
     "static/js/787.2ebb61db.chunk.js": "/static/js/787.2ebb61db.chunk.js",
     "static/media/Paul_Owori_CV.pdf": "/static/media/Paul_Owori_CV.01194d71240502a6ec1f.pdf",
     "static/media/open_sans_italic.ttf": "/static/media/open_sans_italic.f72efa639bb45d29e62f.ttf",
@@ -32,12 +32,12 @@
     "static/media/css3.svg": "/static/media/css3.db7dfd1247623e1e9223d8ef28a37432.svg",
     "static/media/html-5.svg": "/static/media/html-5.a026abbb678246d70ee9b70e4aee972c.svg",
     "static/media/vue-js.svg": "/static/media/vue-js.6d7684efd638278d1af0d12e903b4e18.svg",
-    "main.392ef10c.css.map": "/static/css/main.392ef10c.css.map",
-    "main.e54ec54d.js.map": "/static/js/main.e54ec54d.js.map",
+    "main.e314c795.css.map": "/static/css/main.e314c795.css.map",
+    "main.f5e276ee.js.map": "/static/js/main.f5e276ee.js.map",
     "787.2ebb61db.chunk.js.map": "/static/js/787.2ebb61db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.392ef10c.css",
-    "static/js/main.e54ec54d.js"
+    "static/css/main.e314c795.css",
+    "static/js/main.f5e276ee.js"
   ]
 }

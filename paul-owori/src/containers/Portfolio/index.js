@@ -22,22 +22,28 @@ const Portfolio = () => {
               <div className={styles.tagsRow}>
                 <Tag
                   text={pj.singleHandedly ? 'Solo Effort' : 'Team Effort'}
-                  style={{ marginRight: '10px' }}
+                  style={{ marginRight: '10px', marginBottom: '5px' }}
                 />
 
                 <Tag
                   text={pj.remote ? 'Remote' : 'On-Site'}
-                  style={{ marginRight: '10px' }}
+                  style={{ marginRight: '10px', marginBottom: '5px' }}
                 />
                 {pj.isFrontend ? (
-                  <Tag text="Frontend" style={{ marginRight: '10px' }} />
+                  <Tag
+                    text="Frontend"
+                    style={{ marginRight: '10px', marginBottom: '5px' }}
+                  />
                 ) : null}
                 {pj.isBackend ? (
-                  <Tag text="Backend" style={{ marginRight: '10px' }} />
+                  <Tag
+                    text="Backend"
+                    style={{ marginRight: '10px', marginBottom: '5px' }}
+                  />
                 ) : null}
                 <Tag
                   text={pj.isPersonal ? 'Personal' : 'Professional'}
-                  style={{ marginRight: '10px' }}
+                  style={{ marginRight: '10px', marginBottom: '5px' }}
                 />
               </div>
 
@@ -59,7 +65,7 @@ const Portfolio = () => {
                           here
                         </a>
                       }
-                      style={{ marginLeft: '10px' }}
+                      style={{ marginLeft: '10px', fontWeight: 'bold' }}
                       isRaised
                       isLarge
                     />
@@ -81,7 +87,7 @@ const Portfolio = () => {
                           here
                         </a>
                       }
-                      style={{ marginLeft: '10px' }}
+                      style={{ marginLeft: '10px', fontWeight: 'bold' }}
                       isRaised
                       isLarge
                       // isRed
